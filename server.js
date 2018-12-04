@@ -30,4 +30,4 @@ require('http').createServer(function(req,res){
         res.writeHead(404);
         res.end('Not Found');
     }
-}).listen(8080);
+}).listen(80);
